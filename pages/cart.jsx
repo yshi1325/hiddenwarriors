@@ -7,18 +7,17 @@ const Cart = () => {
       <div className={styles.left}>
         <table className={styles.table}>
           <tr className={styles.trTitle}>
-            <th>Product</th>
+            <th>Task</th>
             <th>Name</th>
-            <th>Extras</th>
-            <th>Price</th>
-            <th>Quantity</th>
+            <th>Details</th>
+            <th>Duration</th>
             <th>Total</th>
           </tr>
           <tr className={styles.tr}>
             <td>
               <div className={styles.imgContainer}>
                 <Image
-                  src="/img/pizza.png"
+                  src="/img/task.png"
                   layout="fill"
                   objectFit="cover"
                   alt=""
@@ -26,19 +25,15 @@ const Cart = () => {
               </div>
             </td>
             <td>
-              <span className={styles.name}>CORALZO</span>
+              <span className={styles.name}>NAME</span>
             </td>
             <td>
-              <span className={styles.extras}>
-                Double ingredient, spicy sauce
-              </span>
+              <span className={styles.details}>Customer details here.</span>
             </td>
             <td>
-              <span className={styles.price}>$19.90</span>
+              <span className={styles.duration}>1 hour</span>
             </td>
-            <td>
-              <span className={styles.quantity}>2</span>
-            </td>
+
             <td>
               <span className={styles.total}>$39.80</span>
             </td>
@@ -47,7 +42,7 @@ const Cart = () => {
             <td>
               <div className={styles.imgContainer}>
                 <Image
-                  src="/img/pizza.png"
+                  src="/img/task.png"
                   layout="fill"
                   objectFit="cover"
                   alt=""
@@ -55,19 +50,15 @@ const Cart = () => {
               </div>
             </td>
             <td>
-              <span className={styles.name}>CORALZO</span>
+              <span className={styles.name}>NAME</span>
             </td>
             <td>
-              <span className={styles.extras}>
-                Double ingredient, spicy sauce
-              </span>
+              <span className={styles.details}>Customer details here.</span>
             </td>
             <td>
-              <span className={styles.price}>$19.90</span>
+              <span className={styles.duration}>2 hours</span>
             </td>
-            <td>
-              <span className={styles.quantity}>2</span>
-            </td>
+
             <td>
               <span className={styles.total}>$39.80</span>
             </td>
@@ -81,7 +72,7 @@ const Cart = () => {
             <b className={styles.totalTextTitle}>Subtotal:</b>$79.60
           </div>
           <div className={styles.totalText}>
-            <b className={styles.totalTextTitle}>Discount:</b>$0.00
+            <b className={styles.totalTextTitle}>Tax:</b>$0.00
           </div>
           <div className={styles.totalText}>
             <b className={styles.totalTextTitle}>Total:</b>$79.60
