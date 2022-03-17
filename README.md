@@ -1,6 +1,6 @@
-## Edit
+## Edit again
 
-This is the version 2 of our project
+This is the version 3 of our project
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
